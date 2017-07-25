@@ -1,0 +1,19 @@
+package: github.com/rai-project/health
+import:
+- package: github.com/k0kubun/pp
+  version: ~2.3.0
+- package: github.com/prometheus/client_golang
+  version: ~0.8.0
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
+- package: github.com/prometheus/node_exporter
+  version: ~0.14.0
+  subpackages:
+  - collector
+- package: github.com/rai-project/config
+- package: github.com/rai-project/logger
+- package: github.com/rai-project/nvidia_exporter
+- package: github.com/rai-project/vipertags
+- package: github.com/sirupsen/logrus
+  version: ~1.0.2
