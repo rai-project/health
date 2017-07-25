@@ -17,6 +17,7 @@ func init() {
 		if err != nil {
 			return
 		}
+		_ = exporter
 		// exporter.Register()
 	})
 }

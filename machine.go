@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/prometheus/node_exporter/collector"
+	"github.com/rai-project/node_exporter/collector"
 )
 
 const (

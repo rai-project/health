@@ -7,12 +7,12 @@ import:
   subpackages:
   - prometheus
   - prometheus/promhttp
-- package: github.com/prometheus/node_exporter
-  version: ~0.14.0
-  subpackages:
-  - collector
 - package: github.com/rai-project/config
 - package: github.com/rai-project/logger
+- package: github.com/rai-project/node_exporter
+  version: master
+  subpackages:
+  - collector
 - package: github.com/rai-project/nvidia_exporter
 - package: github.com/rai-project/vipertags
 - package: github.com/sirupsen/logrus
