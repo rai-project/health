@@ -2,6 +2,8 @@ package: github.com/rai-project/health
 import:
 - package: github.com/k0kubun/pp
   version: ~2.3.0
+- package: github.com/labstack/echo
+  version: ~3.2.1
 - package: github.com/prometheus/client_golang
   version: ~0.8.0
   subpackages:
