@@ -16,4 +16,4 @@ import:
 - package: github.com/rai-project/nvidia_exporter
 - package: github.com/rai-project/vipertags
 - package: github.com/sirupsen/logrus
-  version: ~1.0.2
+  version: ^1.0.0
