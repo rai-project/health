@@ -46,7 +46,7 @@
   name = "github.com/rai-project/logger"
 
 [[constraint]]
-  branch = "master"
+  revision = "75839dd8239d97ee70efa024dbc654a3e8156f80"
   name = "github.com/rai-project/node_exporter"
 
 [[constraint]]
